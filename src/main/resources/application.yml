@@ -1,0 +1,16 @@
+spring:
+  thread-executor: virtual
+  elasticsearch:
+    uris: localhost:9200
+    connection-timeout: 1s
+
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+security:
+  basic:
+    enabled: false
+
+  elastic:
+    product: product
